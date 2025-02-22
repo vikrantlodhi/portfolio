@@ -1,0 +1,63 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+}
+.container{ 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+
+}
+.container-1{
+    color: #ffffff;
+    gap: 20px;
+    padding: 40px 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #0B192C;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.box-1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box-1 img{
+    width: 200px;
+}
+
+.box button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    margin-right: 10px;
+    background-color: #FF6500;
+    color: #ffffff;
+    transition: 0.2s ease-in-out;
+}
+.box button:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+.icon{
+    display: flex;
+    gap: 15px;
+}
+.icon img{
+    margin-bottom: 20px;
+    width: 40px;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+.icon img:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
