@@ -26,7 +26,7 @@ export default function App() {
           <Projects />
           <Skills />
           <Contact />
-          <footer>Designed and coded by Vikrant Lodhi.</footer>
+          <footer>Designed and coded by Vikrant Lodhi ❤️.</footer>
         </main>
       </div>
       <BackToTop />
